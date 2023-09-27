@@ -1,9 +1,16 @@
 {
   "index": "Home",
+  "---": {
+    "type": "separator"
+  },
   "another": "Another Page",
   "desktop": "Desktop",
   "about": {
     "title": "About",
+    "type": "page"
+  },
+  "fresco": {
+    "title": "Fresco Pages",
     "type": "page"
   },
   "contact": {
@@ -11,5 +18,19 @@
     "type": "page",
     "href": "https://community.networkcanvas.com/",
     "newWindow": true
+  },
+  "company": {
+    "title": "Products",
+    "type": "menu",
+    "items": {
+      "fresco": {
+        "title": "Fresco Pages",
+        "href": "/fresco/installation"
+      },
+      "contact": {
+        "title": "Contact Us",
+        "href": "mailto:hi@example.com"
+      }
+    }
   }
 }

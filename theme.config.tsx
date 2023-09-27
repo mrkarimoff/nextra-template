@@ -20,6 +20,7 @@ const config: DocsThemeConfig = {
   ),
   project: {
     link: "https://github.com/mrkarimoff/nextra-template",
+    // icon: <Image width="40" height="40" priority src={logo} alt="LogoIcon" />,
   },
   chat: {
     link: "https://discord.com",
@@ -28,6 +29,8 @@ const config: DocsThemeConfig = {
   footer: {
     text: "Copyright © 2016-2021 Complex Data Collective.",
   },
+  primaryHue: 150,
+  primarySaturation: 65,
 };
 
 export default config;
